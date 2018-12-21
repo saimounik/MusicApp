@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/art"
+        android:layout_width="@dimen/five_zero_dp"
+        android:layout_height="@dimen/five_zero_dp"
+        android:layout_marginStart="@dimen/five_dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:layout_marginBottom="@dimen/eight_dp"
+        android:contentDescription="@string/art_music"
+        android:scaleType="fitXY"
+        android:src="@mipmap/arvndm" />
+
+    <TextView
+        android:id="@+id/song_name_textView_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/four_dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/art"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:layout_toEndOf="@id/art"
+        android:text="@string/song_name_here"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/one_eight_sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/artist_name_textView_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/song_name_textView_ID"
+        android:layout_alignStart="@+id/song_name_textView_ID"
+        android:layout_alignLeft="@id/song_name_textView_ID"
+        android:text="@string/artist_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/one_six_sp" />
+
+
+    <ImageButton
+        android:id="@+id/play_Image_button"
+        android:layout_width="@dimen/five_zero_dp"
+        android:layout_height="@dimen/five_zero_dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="@dimen/five_dp"
+        android:layout_marginBottom="@dimen/eight_dp"
+        android:background="@drawable/play_button"
+        android:contentDescription="@string/play_image_button"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

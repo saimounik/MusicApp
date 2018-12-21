@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="song_name">Song Name Here</string>
+    <string name="artist_name">Artist Name Here</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="current_play">current play</string>
+    <string name="cover">cover</string>
+    <string name="play_image_button">Play Image Button</string>
+    <string name="art_music">Music Art</string>
+    <string name="song_name_here">Song Name Here</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
